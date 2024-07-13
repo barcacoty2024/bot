@@ -20,8 +20,8 @@ async def start_admin(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="👮‍♂ Admin 1", user_id=ADMIN1),
-                    InlineKeyboardButton(text="👮‍♂ Admin 2", user_id=ADMIN2),
+                    InlineKeyboardButton(text="👮‍♂ Admin 1", user_id=5779185981),
+                    InlineKeyboardButton(text="👮‍♂ Admin 2", user_id=5779185981),
                 ],
                   [
                      InlineKeyboardButton(text="Tutup", callback_data="cl_ad"),
@@ -88,7 +88,7 @@ async def on_plug_in_cb(_, callback_query: CallbackQuery):
     this_command = f"**Bantuan Untuk {str(modul_name).upper()}**\n\n"
     for x in commands:
         this_command += f"๏ **Perintah:** `{str(x)}`\n◉ **Keterangan:** `{str(commands[x])}`\n\n"
-    this_command += "@KynanSupport"
+    this_command += "@Disney_storeDan"
     bttn = [
         [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="reopen")],
     ]
