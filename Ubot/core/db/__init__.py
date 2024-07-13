@@ -61,7 +61,7 @@ afkdb = db.afk
 BOT_VER ="8.1.0"
 
 MSG_ON = """
-**New Ubot Actived ✅**
+**Wildan Userbot Actived ✅**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ◉ **Versi** : `{}`
 ◉ **Phython** : `{}`
@@ -82,9 +82,9 @@ async def buat_log(bot):
         botlog_chat_id = user_data.get("bot_log_group_id")
 
     if not user_data or not botlog_chat_id:
-        nan = "NayaProjectBot"
-        group_name = 'Naya Project Bot Log'
-        group_description = 'Jangan Hapus Atau Keluar Dari Grup Ini\n\nCreated By @NayaProjectBot.\nJika menemukan kendala atau ingin menanyakan sesuatu\nHubungi : @kenapanan atau bisa ke @KynanSupport.'
+        nan = "Wildan Userbot"
+        group_name = 'Wildan-UserBot Logs'
+        group_description = 'Jangan Hapus Atau Keluar Dari Grup Ini\n\nCreated By @Disney_storeDan.\nJika menemukan kendala atau ingin menanyakan sesuatu\nHubungi : @mhmdwldnnnn atau bisa ke @Disney_storeDan.'
         group = await bot.create_supergroup(group_name, group_description)
         botlog_chat_id = group.id
         message_text = 'Grup Log Berhasil Dibuat,\nKetik `id` untuk mendapatkan id log grup\nKemudian ketik `setlog` ID_GROUP\n\nContoh : setlog -100749492984'
