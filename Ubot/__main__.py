@@ -22,7 +22,7 @@ BOT_VER ="8.1.0"
 
 MSG_BOT = """
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
-**New Ubot Actived ✅**
+**Wildan Userbot Actived ✅**
 **Phython**: `{}`
 **Pyrogram**: `{}`
 **User**: `{}`
@@ -30,7 +30,7 @@ MSG_BOT = """
 """
 
 MSG_ON = """
-**New Ubot Actived ✅**
+**Wildan Userbot Actived ✅**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ◉ **Versi** : `{}`
 ◉ **Phython** : `{}`
