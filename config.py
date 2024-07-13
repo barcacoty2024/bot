@@ -27,8 +27,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 BRANCH = getenv("BRANCH", "main") #don't change
 CMD_HNDLR = getenv("CMD_HNDLR", ".")
-SUPPORT = int(getenv("SUPPORT", "-1001812143750"))
-CHANNEL = int(getenv("CHANNEL", "-1001896537650"))
+SUPPORT = int(getenv("SUPPORT", "-1002127258037"))
+CHANNEL = int(getenv("CHANNEL", "-1002111666674"))
 
 API_ID = int(getenv("API_ID", "1234"))
 API_HASH = getenv("API_HASH")
