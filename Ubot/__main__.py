@@ -12,7 +12,7 @@ from Ubot.logging import LOGGER
 from pyrogram import __version__ as pyro
 import sqlite3
 from Ubot.modules import ALL_MODULES
-from Ubot.core.db import buat_log, get_log
+from Ubot.core.db import buat_log
 from config import SUPPORT, CHANNEL
 import os
 from dotenv import load_dotenv
