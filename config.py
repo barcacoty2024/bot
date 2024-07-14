@@ -30,8 +30,8 @@ CMD_HNDLR = getenv("CMD_HNDLR", ".")
 SUPPORT = int(getenv("SUPPORT", "-1002127258037"))
 CHANNEL = int(getenv("CHANNEL", "-1002111666674"))
 
-API_ID = int(getenv("API_ID", "1234"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "26477680"))
+API_HASH = getenv("API_HASH"), "b0d8504752cc1ecf52009ece2bdef0b8"))
 
 SESSION1 = getenv("SESSION1", "")
 SESSION2 = getenv("SESSION2", "")
